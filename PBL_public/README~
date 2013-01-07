@@ -4,7 +4,10 @@ This directory contains sub directories
 
 This has a makefile that links to lower level directoris.
 
-All sub-directories have their own README.
+This code uses JAMA, TNT.
+You can download these codes from here,
+http://math.nist.gov/tnt/download.html
+In the Makefile in PBL_public change path= "path to your TNT,JAMA files"
 
 Directories:
 bin:executable directory.

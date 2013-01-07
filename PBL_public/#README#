@@ -21,7 +21,7 @@ src/pbl: This directory has all the codes for PBL.
 bin/recon_pbl executes the PBL codes.
 
 The code is run as follows:
-
+"bin/recon_pbl pbl.config"
 
 Files:
 

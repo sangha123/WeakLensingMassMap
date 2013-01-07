@@ -4,7 +4,7 @@ flags = -O3
 
 
 lflags = -lm
-path = /users/astro/sdeb
+path = /Users/sanghamitradeb
 TNT = -I $(path)/TNT -I $(path)/JAMA
 BIN_DIR = ../../bin
 

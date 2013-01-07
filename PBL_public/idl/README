@@ -1,0 +1,9 @@
+These codes are used to generate the shear catalog.
+
+The catalog is generated on a unit grid.
+
+one_iso.pro: generates one softened isothermal sphere
+two_iso.pro: generates two peaks of softened isothermal sphere
+
+find_images.pro uses 'find_clump.pro','calculate_ellipticity.pro' to make the catalog.
+

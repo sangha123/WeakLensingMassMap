@@ -4,7 +4,7 @@ PBL_SRC = src/pbl
 
 path = /users/astro/sdeb
 
-all: recon_grid 
+all: recon_pbl
 
 
 recon_pbl:

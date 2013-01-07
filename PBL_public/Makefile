@@ -2,7 +2,7 @@ BIN_DIR = bin
 GRID_SRC = src/grid
 PBL_SRC = src/pbl
 
-path = /users/astro/sdeb
+path = /Users/sanghamitradeb/
 
 all: recon_pbl
 
