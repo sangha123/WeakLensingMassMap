@@ -1,4 +1,4 @@
-This code uses weak lensing data and produces the map of dimensionless surface mass density. 
+This C++ code uses weak lensing data and produces the map of dimensionless surface mass density. 
 
 This directory contains sub directories
 
@@ -13,20 +13,16 @@ Directories:
 bin:executable directory.
 arxiv: This has older codes.
 
-
 src/pbl: This directory has all the codes for PBL. 
-
-
 
 bin/recon_pbl executes the PBL codes.
 
 The code is run as follows:
-
-
+"bin/recon_pbl pbl.config"
 Files:
 
 The format for the config files is,
-// This code will take a configuration file of the form:
+
   // 1. datafile (containing column delimited x y e1 e2 sigma_e)
   // 2. int constsigma (0 to use the parameters in the datafile, 
   //                    1 to use the parameter in line 3)
@@ -42,9 +38,10 @@ The format for the config files is,
 
 
 The .dat files contain data of the for "x,y,e1,e2" for 1 peak and 2peaks.
-If you want to test codes it is best to use these files foe testing.
+If you want to test codes it is best to use these files for testing.
 
 The output has the form,
 x,y,psi,kappa,ktrue
 
-Of course if you have your own shear catalog that can be used as well. One thing to remember all codes are written for unit grid. So the x,y-s for a general shear catalog need to be normalized to unity.
+Of course if you have your own shear catalog that can be used as well. 
+One thing to remember all codes are written for unit grid. So the x,y-s for a general shear catalog need to be normalized to unity.

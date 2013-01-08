@@ -1,0 +1,13 @@
+Inorder to install these codes, download the PBL_public directory.
+Install TNT and JAMA from http://math.nist.gov/tnt/download.html.
+
+In the directory PBL_public :
+"cd src/pbl"
+
+In the pbl directory there is a Makefile.
+Replace "TNT_PATH = /Users/sanghamitradeb/TNT"
+with TNT_PATH= path to directory containing TNT files.
+
+Replace "JAMA_PATH = /Users/sanghamitradeb/JAMA"
+with JAMA_PATH= path to directory containing JAMA files.
+
